@@ -24,6 +24,7 @@ int countWays(vector<vector<int> > map, int x, int y) {
     }
     for(i=1;i<y;i++) {
         r[0][i] = 1;
+        r[0][i] = 1;
     }
     min=-1;
     for(i=0;i<x;i++) {
